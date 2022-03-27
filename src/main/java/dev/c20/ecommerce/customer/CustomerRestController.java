@@ -1,6 +1,6 @@
-package com.example.axel;
+package dev.c20.ecommerce.customer;
 
-import com.example.axel.dto.CustomerDto;
+import dev.c20.ecommerce.customer.dto.CustomerDto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;

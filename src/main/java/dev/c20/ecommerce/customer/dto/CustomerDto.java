@@ -1,12 +1,11 @@
-package com.example.axel.dto;
+package dev.c20.ecommerce.customer.dto;
 
-import com.example.axel.Customer;
+import dev.c20.ecommerce.customer.Customer;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.modelmapper.ModelMapper;
 
-import java.io.Serializable;
 @Getter
 @Setter
 @Accessors(chain = true)

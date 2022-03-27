@@ -1,4 +1,4 @@
-package com.example.axel;
+package dev.c20.ecommerce.customer;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

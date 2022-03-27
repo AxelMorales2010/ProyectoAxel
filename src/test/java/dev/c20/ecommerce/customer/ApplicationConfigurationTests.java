@@ -1,10 +1,10 @@
-package com.example.axel;
+package dev.c20.ecommerce.customer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AxelApplicationTests {
+class ApplicationConfigurationTests {
 
     @Test
     void contextLoads() {
