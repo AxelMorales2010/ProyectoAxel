@@ -23,7 +23,7 @@ public class CustomerRestController {
         return repo.findById(id)
                 .map(customerToDelete -> {
                     repo.delete(customerToDelete);
-                    return "customer eliminado";
+                    return "Cliente Eliminado";
                 })
                 .map(ResponseEntity::ok)
                 .orElse( ResponseEntity.status(HttpStatus.NOT_FOUND).body(null));
